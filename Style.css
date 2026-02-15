@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    width: 1200px;
+    /* height: 150vh; */
+    background: url(https://plus.unsplash.com/premium_photo-1671336757490-1249b2ccb020?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1032);
+    background-size: cover;
+
+}
+
+.main-container .navlist {
+    width: 1200px;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlist img {
+    width: 100px;
+    height: 100px;
+}
+
+.navlist h1 {
+    color: #00ffff;
+    align-self: center;
+    padding-left: 10px;
+}
+
+.navlist h1:hover {
+    color: #000;
+    background: linear-gradient(#fff 30%, #000);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navlist ul {
+    display: flex;
+    gap: 34px;
+}
+
+.navlist ul li {
+    list-style: none;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: #00ffff;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-family: arial;
+    font-weight: bold;
+    transition: 1s ease-in;
+}
+
+.navlist a:hover {
+    color: #000;
+    background: linear-gradient(#fff 30%, #000);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.font .fa-brands {
+    color: #00ffff;
+    margin-right: 30px;
+    font-size: 1.5rem;
+    gap: 10px 0;
+    /* text-shadow: 5px 5px 13px black; */
+}
+
+.fa-brands:hover {
+    color: #fff;
+    background: linear-gradient(#fff 30%, #000);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content {
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h1 {
+    color: #00ffff;
+    font-size: 3rem;
+    font-family: century;
+}
+
+.heading h2 {
+    line-height: 40px;
+    color: #fff;
+    font-size: 2rem;
+    font-family: century;
+}
+
+.heading p {
+    padding-top: 12px;
+    line-height: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: century;
+}
+
+.paragraph ul {
+    padding-top: 7rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+}
+
+.paragraph p {
+    font-size: 24px;
+    color: #00ffff;
+    padding-right: 18px;
+}
+
+.image {
+    padding: 50px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.child {
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+    border: 4px solid #fff;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.image-1 {
+    background: url(https://plus.unsplash.com/premium_photo-1663950774987-e9ad97fcd0c3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z3JlZW5yeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500);
+}
+
+.image-2 {
+    background: url(https://images.unsplash.com/photo-1700724308044-4fa9e17996c0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGdyZWVucnl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500);
+}
+
+.image-3 {
+    background: url(https://images.unsplash.com/photo-1521706862577-47b053587f91?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Z3JlZW5yeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500);
+}
+
+.footer {
+    background: #FFF;
+    height: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 4px solid #000;
+    border-radius: 15px;
+}
+
+.footer h1 {
+    color: #ff0000;
+    transition: 1s ease-in-out;
+}
+
+.footer h1:hover {
+    color: #000;
+    background: linear-gradient(#FF0000, #000);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.nightmare p{
+    color:#0000ff;
+    font-size:14px;
+    padding: 10px 10px;
+}
+.contact li {
+    /* list-style: none; */
+}
+
+.contact a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 1s ease-in-out;
+}
+
+.contact a:hover {
+    background: linear-gradient(#FF0000, #000);
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
